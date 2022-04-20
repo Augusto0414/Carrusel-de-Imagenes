@@ -3,7 +3,7 @@
   max-width: 120em;
   box-sizing: border-box;
   margin: 0 auto;
-  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 9);
   background-color: rgb(255, 255, 255);
   overflow: hidden;
 }
@@ -34,15 +34,17 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 9);
 }
 
 .carrousel .punto {
   width: 2em;
   height: 2em;
   border-radius: 50%;
-  background-color: rgb(19, 162, 214);
+  background-color: rgb(255, 255, 255);
   margin: 1em 1em 0;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 9);
 }
 
 .carrousel .punto.activo {
